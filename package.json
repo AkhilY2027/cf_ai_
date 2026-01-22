@@ -1,0 +1,19 @@
+{
+  "name": "cf-ai-chat-app",
+  "version": "1.0.0",
+  "description": "AI-powered chat application on Cloudflare with Workers AI",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "keywords": ["cloudflare", "workers", "ai", "chat"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "wrangler": "^3.22.0",
+    "typescript": "^5.3.3"
+  }
+}
